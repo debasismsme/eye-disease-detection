@@ -101,7 +101,7 @@ export default function MultiStepForm() {
         }
   
         try {
-          const response = await axios.post('http://localhost:5000/api/send-form', form);
+          const response = await axios.post('/.netlify/functions/sendForm', form);
           console.log('Form sent successfully:', response.data);
         } catch (err) {
           console.error('Failed to send form:', err);

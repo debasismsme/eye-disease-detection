@@ -60,7 +60,7 @@ function AboutUsModal({ onClose }) {
         <ul style={styles.pdfList}>
           <li>
             <a
-              href="/My_CV_update.pdf"
+              href="/debasis_resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
               style={styles.pdfLink}
