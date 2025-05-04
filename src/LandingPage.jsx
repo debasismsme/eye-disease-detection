@@ -292,15 +292,16 @@ const styles = {
   },
   /* Navbar */
   navbar: {
+    width:'92.6vw',
+    position: 'fixed',
     display: 'flex',
     justifyContent: 'space-between',
     alignItems: 'center',
-    background: 'linear-gradient(to right, rgb(27 33 4 / 93%), rgb(108 136 76 / 80%))',
+    background: 'rgb(27 33 4 / 100%)',
     padding: '10px 40px',
-    borderRadius: '7px',
-    boxShadow: 'rgb(30 72 13 / 98%) 2px 4px 5px',
     marginBottom: '20px',
     border: '2px solid #444',
+   
   },
   navBrand: {
     color: '#fff',

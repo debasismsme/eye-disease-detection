@@ -2,7 +2,6 @@ import express from 'express';
 import multer from 'multer';
 import nodemailer from 'nodemailer';
 import cors from 'cors';
-import fs from 'fs';
 import dotenv from 'dotenv';
 
 dotenv.config();
